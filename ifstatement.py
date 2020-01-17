@@ -70,8 +70,3 @@
 #     print('Science*')
 # if e<35:
 #     print('Social*')
-
-users={
-    'name':'Ram',
-
-}
