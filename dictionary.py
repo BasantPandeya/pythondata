@@ -31,11 +31,11 @@
 # users['address']='Lalitpur'
 # print (users)
 
-students=[
-    {'name':'hari', 'address':98449},
-    {'name':'sita', 'address':'ktm'},
-    {'name':'gita', 'address':'ktm'}
-]
-for student in students:
-    print (student['name'], student['address'])
+# students=[
+#     {'name':'hari', 'address':98449},
+#     {'name':'sita', 'address':'ktm'},
+#     {'name':'gita', 'address':'ktm'}
+# ]
+# for student in students:
+#     print (student['name'], student['address'])
 
