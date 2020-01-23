@@ -53,18 +53,18 @@
 #     """something to write"""
 
 
-def name_check(anyfunction):
-    def namechk(name):
-        if (name.isdigit()):
-            return "Given name is not string"
-        else:
-            return "Given name is string"
-    return namechk
-
-@name_check
-def getname(name):
-    return type(name)
-
-a=input('Enter your name: ')
-print(getname(a))
+# def name_check(anyfunction):
+#     def namechk(name):
+#         if (name.isdigit()):
+#             return "Given name is not string"
+#         else:
+#             return "Given name is string"
+#     return namechk
+#
+# @name_check
+# def getname(name):
+#     return type(name)
+#
+# a=input('Enter your name: ')
+# print(getname(a))
 

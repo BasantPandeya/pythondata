@@ -33,7 +33,11 @@
 # print (add(40, 20))
 # print (sub(40, 20))
 
-from mylib.d1.d2.d3 import *
+from mylib. import *
 print(users.get_user())
 print (calculator.add(40, 20))
 print (calculator.sub(40, 20))
+
+# import os
+# print (os.path)
+
