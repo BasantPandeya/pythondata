@@ -12,7 +12,7 @@ data = [
 # emp_num = 0
 # emp_list=[]
 # while emp_num < x:
-#     name = [input('Enter the name:')]
+#     name = input('Enter the name:')
 #     emp_list.append(name)
 #     emp_num += 1
 # print("The name of the employee are:")
