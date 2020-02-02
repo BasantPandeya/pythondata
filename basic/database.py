@@ -44,20 +44,32 @@
 #
 # my_cursor.execute(create_query)
 #
-# insert_query="INSERT INTO users(name)VALUES('admin')"
+# insert_query="INSERT INTO users(name)VALUES('hari')"
 # my_cursor.execute(insert_query)
 # my_db.commit()
 
+# delete_query="DELETE FROM `users` WHERE id=2"
+# my_cursor.execute(delete_query)
+# my_db.commit()
 
-my_cursor=''
+# select_query="SELECT * FROM users"
+# my_cursor.execute(select_query)
+#
+# result=my_cursor.fetchall()
+# # result=my_cursor.fetchone() """fetches only one data"""
+# # result=my_cursor.fetchmany() """fetches data as per our requirement"""
+# for user in result:
+#     print(user)
+#
+#
+# my_cursor=''
+#
+# def db_connection():
+#     global my_cursor
+#     pass
+#
+# def insert(tablename, **data):
+#     print(data)
 
-def db_connection():
-    global my_cursor
-    pass
-
-def insert(tablename, **data):
-    print(data)
-
-
-insert('users', name='ram', age=20)
+# insert('users', name='ram', age=20)
 
